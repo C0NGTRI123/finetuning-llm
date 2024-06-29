@@ -83,8 +83,8 @@ def train(
         save_total_limit=3,
         num_train_epochs=2,
         group_by_length=True,
-        fp16=False,
-        bf16=True
+        fp16=True,
+        bf16=False
     )
 
     # Trainer
